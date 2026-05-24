@@ -15,6 +15,7 @@ This project analyzes a full year of pizza restaurant sales using SQL Server. Th
 🗂️ Dataset
 
 The project uses a table named pizza_sales2, which includes:
+
 	• order_id
 	• order_date
 	• pizza_name
@@ -31,13 +32,16 @@ The project uses a table named pizza_sales2, which includes:
 	• total_pizza_sold
 	• total_orders
 	• average_pizza_per_order
+
 2. Time‑Based Trends
 	• daily_trend_total_orders
 	• monthly_trend_total_orders
+
 3. Category & Size Insights
 	• % sales by pizza category
 	• % sales by pizza size
 	• total_quantity_sold_by_category
+
 4. Product Performance
 	• Top_5_pizzas_by_revenue
 	• Bottom_5_pizzas_by_revenue
@@ -57,15 +61,22 @@ The project uses a table named pizza_sales2, which includes:
 🧠 Key SQL Concepts Used
 
 CREATE VIEW — to modularize and reuse queries
+
 SUM, COUNT, AVG — aggregate functions
+
 DISTINCT — for accurate order counting
+
 CAST / DECIMAL — for precise percentage calculations
+
 DATENAME — to extract day name and month name from dates
+
 DATEPART — to filter by quarter
+
 GROUP BY / ORDER BY — for sorting and grouping results
 
 
 🛠️ Tools Used
 
 	• SQL Server Management Studio (SSMS)
+	
 	• Views for reusable analytic
