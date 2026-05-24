@@ -78,5 +78,5 @@ GROUP BY / ORDER BY — for sorting and grouping results
 🛠️ Tools Used
 
 	• SQL Server Management Studio (SSMS)
-	
+	• T‑SQL
 	• Views for reusable analytic
