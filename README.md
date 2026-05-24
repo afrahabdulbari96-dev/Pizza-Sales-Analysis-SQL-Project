@@ -1,15 +1,19 @@
 # Pizza-Sales-Analysis-SQL-Project
 
 Project Overview
+
 This project analyzes a full year of pizza restaurant sales using SQL Server. The goal is to build a set of analytical SQL views that calculate key business metrics such as revenue, order trends, product performance, and category insights. These views can be used directly for reporting, dashboard creation, or business decision‑making.
 
 🎯 Objectives
+	
 	• Build reusable SQL views for business KPIs.
 	• Analyze sales performance across categories, sizes, and time periods.
 	• Identify top‑ and bottom‑performing pizzas by revenue, quantity, and orders.
 	• Understand customer ordering behavior through daily and monthly trends.
 	• Prepare clean, structured data for BI dashboards (Power BI / Tableau).
+
 🗂️ Dataset
+
 The project uses a table named pizza_sales2, which includes:
 	• order_id
 	• order_date
@@ -20,6 +24,7 @@ The project uses a table named pizza_sales2, which includes:
 	• total_price
 
 🧮 Key Metrics (SQL Views Created)
+
 1. Revenue & Order KPIs
 	• total_revenue
 	• average_order_value
@@ -42,6 +47,7 @@ The project uses a table named pizza_sales2, which includes:
 	• Bottom_5_pizzas_by_total_orders
 
 📊 Business Insights (Summary)
+	
 	• Identify which pizza categories generate the highest revenue.
 	• Understand customer preferences by size and category.
 	• Detect slow‑moving products to optimize the menu.
@@ -60,5 +66,6 @@ GROUP BY / ORDER BY — for sorting and grouping results
 
 
 🛠️ Tools Used
+
 	• SQL Server Management Studio (SSMS)
 	• Views for reusable analytic
